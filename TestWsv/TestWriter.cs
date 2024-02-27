@@ -1,8 +1,8 @@
 using System.Text.RegularExpressions;
 using WsvNet;
-using static TestProject1.TemplateValues;
+using static TestWsv.TemplateValues;
 
-namespace TestProject1;
+namespace TestWsv;
 
 public class TestWriter
 {

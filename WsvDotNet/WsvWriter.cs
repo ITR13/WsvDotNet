@@ -8,7 +8,7 @@ public static class WsvWriter
     private const char LineBreakChar = '\u000A';
     private const char HashChar = '#';
     private const char DoubleQuoteChar = '\u0022';
-    private const char MinusChar = '-';
+    private const char MinusChar = '-';     
     private const char SlashChar = '/';
 
     public static string WriteTsv(string?[][] values)
