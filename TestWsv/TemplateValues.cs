@@ -11,7 +11,7 @@ Olivia    Jones    -   ""San Francisco""
    
 ""Hello""""World"" ""New""/""Line"" """" -
 
-" + "\n \ncat\n\n";
+" + "\n\r\n \ncat\n\n";
 
     public static readonly string?[][] CorrectValues =
     [
@@ -22,7 +22,7 @@ Olivia    Jones    -   ""San Francisco""
         ["Olivia", "Jones", null, "San Francisco"],
         [],
         ["Hello\"World", "New\nLine", "", null],
-        [], [], [],
+        [], [], [], [],
         ["cat"],
         [], []
     ];
